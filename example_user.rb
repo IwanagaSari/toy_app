@@ -15,5 +15,7 @@ class User
     "#{@full_name} <#{@email}>"
   end
 
-  def 
+  def alphabetical_name
+    @alphabetical_name = "#{@last_name}, #{@first_name}"
+  end
 end
